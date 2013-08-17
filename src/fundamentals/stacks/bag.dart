@@ -1,5 +1,6 @@
 library bag;
 import "dart:collection";
+import "shared.dart";
 class Bag<Item> extends Object with IterableMixin<Item> {
   int _N; // number of elements in bag
   Node _first;
@@ -25,25 +26,4 @@ class Bag<Item> extends Object with IterableMixin<Item> {
   }
 }
 
-class Node<Item> extends Object {
-  Item item;
-  Node next;
-}
 
-
-class ListIterator<Item> implements Iterator<Item> {
-  Node _current;
-  ListIterator (Node current) {
-    _current=new Node();
-    _current.next=current;
-  }
-  Item get current => _current.item;
-  bool moveNext () {
-    if ( _current.next == null ) {
-      return false;
-    }
-    _current=_current.next;
-    return true;
-  }
-
-}

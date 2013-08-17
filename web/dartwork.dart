@@ -1,6 +1,7 @@
 import 'dart:html';
 import 'package:js/js.dart' as js;
-import '../src/graphs/directed-graphs/digraph.dart';
+import "package:range/range.dart";
+import '../src/graphs/directed-graphs/Digraph.dart';
 
 void main() {
   /*query("#sample_text_id")
@@ -52,16 +53,26 @@ void main() {
                   [7, 6 ]];
   var digraph = new Digraph(13);
   for (var pair in tinyDAG) {
-    js.context.console.log(js.array(pair));
+    //js.context.console.log(js.array(pair));
     digraph.addEdge(pair[0], pair[1]);
   }
   var lst = [];
-  for (var i in range()) {
-    
+  for (var i in range(digraph.V)) {
+    print (i);
+    Iterator<int> iter = digraph.adj(i).iterator;
+    var current;
+    while (iter.moveNext()) {
+      current = iter.current;
+      print("current is $current");
+      lst.add({
+        "source" : i,
+        "target" : current,
+        "type" : "blocks",
+      }); 
+    }
   }
-  
-  
-  //js.context.showLinks(js.array(list));
+  js.context.console.log(js.array(lst));
+  js.context.showLinks(js.array(lst));
 }
 
 void reverseText(MouseEvent event) {
