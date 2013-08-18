@@ -45,6 +45,12 @@ class Graph extends AbstractGraph {
      * @throws java.lang.IndexOutOfBoundsException unless both 0 <= v < V and 0 <= w < V
      */
     void addEdge(int v, int w) {
+      if (v == null) {
+        throw ("vertice start should not be null");
+      }
+      if (w == null) {
+        throw ("vertice end should not be null");
+      }      
       if (v < 0 || v >= V) 
         throw ("IndexOutOfBoundsException:vertex $v is not between 0 and ${V-1}");
       if (w < 0 || w >= V) 
