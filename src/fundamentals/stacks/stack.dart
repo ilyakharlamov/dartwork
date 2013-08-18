@@ -1,3 +1,4 @@
+library Stack;
 import "dart:collection";
 import "shared.dart";
 /**

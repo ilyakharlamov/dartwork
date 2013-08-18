@@ -1,3 +1,4 @@
+library Digraph;
 import '../../../src/fundamentals/stacks/bag.dart';
 
 class Digraph {
@@ -131,14 +132,6 @@ class Digraph {
         }
         return s.toString();
     }
-
-   /**
-     * Test client.
-     */
-    public static void main(String[] args) {
-        In in = new In(args[0]);
-        Digraph G = new Digraph(in);
-        StdOut.println(G);
-    }*/
+*/
 
 }

@@ -4,7 +4,7 @@ packages:
   browser:
     description: browser
     source: hosted
-    version: "0.6.15+3"
+    version: "0.6.14"
   js:
     description: js
     source: hosted
@@ -12,16 +12,20 @@ packages:
   meta:
     description: meta
     source: hosted
-    version: "0.6.15+3"
+    version: "0.6.14"
   path:
     description: path
     source: hosted
-    version: "0.6.15+3"
+    version: "0.6.14"
+  range:
+    description: range
+    source: hosted
+    version: "1.1.0"
   stack_trace:
     description: stack_trace
     source: hosted
-    version: "0.6.15+3"
+    version: "0.6.14"
   unittest:
     description: unittest
     source: hosted
-    version: "0.6.15+3"
+    version: "0.6.14+2"

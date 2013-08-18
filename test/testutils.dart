@@ -15,6 +15,15 @@ List<List<int>> textToList (String str) {
     }
     return lstAll;
   }
+void printIterable (Iterable iterable) {
+  String s ="[";
+  var iter = iterable.iterator;
+  while (iter.moveNext()) {
+    s+=iter.current.toString()+",";
+  }
+  s+="]";
+  print(s);
+}
 
 main () {
   print(textToList("22 11\n11 22"));
