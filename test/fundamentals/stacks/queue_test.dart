@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/fundamentals/stacks/queue.dart';
+import '../../../lib/fundamentals/stacks/queue.dart';
 
 void main() {
   group('main-test-group',() {
