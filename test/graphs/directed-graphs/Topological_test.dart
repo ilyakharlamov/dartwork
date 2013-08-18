@@ -1,7 +1,7 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/graphs/directed-graphs/Digraph.dart';
-import '../../../src/graphs/directed-graphs/DirectedCycle.dart';
-import '../../../src/graphs/directed-graphs/Toplogical.dart';
+import '../../../lib/graphs/directed-graphs/Digraph.dart';
+import '../../../lib/graphs/directed-graphs/DirectedCycle.dart';
+import '../../../lib/graphs/directed-graphs/Toplogical.dart';
 import '../../testutils.dart';
 
 void main() {

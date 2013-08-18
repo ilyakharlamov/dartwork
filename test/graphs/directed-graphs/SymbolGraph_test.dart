@@ -1,6 +1,6 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/graphs/directed-graphs/SymbolGraph.dart';
-import '../../../src/graphs/directed-graphs/Entry.dart';
+import '../../../lib/graphs/directed-graphs/SymbolGraph.dart';
+import '../../../lib/graphs/directed-graphs/Entry.dart';
 import 'dart:collection';
 //import '../../../src/graphs/directed-graphs/Toplogical.dart';
 import '../../testutils.dart';

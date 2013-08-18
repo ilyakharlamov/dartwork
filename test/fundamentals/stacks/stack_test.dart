@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/fundamentals/stacks/stack.dart';
+import '../../../lib/fundamentals/stacks/stack.dart';
 
 void main() {
   group('main-test-group',() {

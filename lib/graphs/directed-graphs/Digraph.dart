@@ -1,5 +1,5 @@
 library directedgraphs;
-import '../../../src/fundamentals/stacks/bag.dart';
+import '../../fundamentals/stacks/bag.dart';
 import 'AbstractGraph.dart';
 
 class Digraph extends AbstractGraph {

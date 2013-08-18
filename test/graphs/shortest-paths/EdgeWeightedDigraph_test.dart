@@ -1,8 +1,8 @@
         /*EdgeWeightedDigraph G = new EdgeWeightedDigraph(in);
         StdOut.println(G);*/
 import 'package:unittest/unittest.dart';
-import '../../../src/graphs/shortest-paths/DirectedEdge.dart';
-import '../../../src/graphs/shortest-paths/EdgeWeightedDigraph.dart';
+import '../../../lib/graphs/shortest-paths/DirectedEdge.dart';
+import '../../../lib/graphs/shortest-paths/EdgeWeightedDigraph.dart';
 
 void main() {
   group('test',() {

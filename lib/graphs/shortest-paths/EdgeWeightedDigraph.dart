@@ -1,7 +1,7 @@
 library EdgeWeightedDigraph;
 import 'dart:math';
 import "DirectedEdge.dart";
-import '../../../src/fundamentals/stacks/bag.dart';
+import '../../fundamentals/stacks/bag.dart';
 /*************************************************************************
  *  Compilation:  javac EdgeWeightedDigraph.java
  *  Execution:    java EdgeWeightedDigraph V E

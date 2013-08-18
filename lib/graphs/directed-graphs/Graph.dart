@@ -1,7 +1,7 @@
 library Graph;
 import 'dart:math' as math;
 //import 'Digraph.dart';
-import '../../../src/fundamentals/stacks/bag.dart';
+import '../../fundamentals/stacks/bag.dart';
 import 'AbstractGraph.dart';
 /*************************************************************************
  *  A graph, implemented using an array of sets.

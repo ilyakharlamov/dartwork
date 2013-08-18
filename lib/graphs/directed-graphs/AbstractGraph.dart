@@ -1,6 +1,6 @@
 library directedgraphs;
-import '../../../src/fundamentals/stacks/bag.dart';
-import '../../../src/fundamentals/stacks/stack.dart';
+import '../../fundamentals/stacks/bag.dart';
+import '../../fundamentals/stacks/stack.dart';
 abstract class AbstractGraph {
   /**
    * The number of vertices in the graph.

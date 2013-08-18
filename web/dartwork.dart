@@ -1,7 +1,7 @@
 import 'dart:html';
 import 'package:js/js.dart' as js;
 import "package:range/range.dart";
-import '../src/graphs/directed-graphs/Digraph.dart';
+import '../lib/graphs/directed-graphs/Digraph.dart';
 
 void main() {
   /*query("#sample_text_id")

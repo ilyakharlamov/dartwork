@@ -4,8 +4,8 @@
  *  %  java DirectedCycle tinyDAG.txt 
  *  No cycle*/
  import 'package:unittest/unittest.dart';
- import '../../../src/graphs/directed-graphs/Digraph.dart';
- import '../../../src/graphs/directed-graphs/DirectedCycle.dart';
+ import '../../../lib/graphs/directed-graphs/Digraph.dart';
+ import '../../../lib/graphs/directed-graphs/DirectedCycle.dart';
  import "../../testutils.dart";
 
  void main() {

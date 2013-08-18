@@ -1,6 +1,6 @@
 library DirectedCycle;
 import "Digraph.dart";
-import '../../../src/fundamentals/stacks/stack.dart';
+import '../../fundamentals/stacks/stack.dart';
 
 /*************************************************************************
  *  Data files:   http://algs4.cs.princeton.edu/42directed/tinyDG.txt

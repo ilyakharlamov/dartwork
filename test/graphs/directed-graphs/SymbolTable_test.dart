@@ -1,6 +1,6 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/graphs/directed-graphs/Digraph.dart';
-import '../../../src/graphs/directed-graphs/SymbolTable.dart';
+import '../../../lib/graphs/directed-graphs/Digraph.dart';
+import '../../../lib/graphs/directed-graphs/SymbolTable.dart';
 import "../../testutils.dart";
 
 void main() {

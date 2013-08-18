@@ -1,5 +1,5 @@
 import 'package:unittest/unittest.dart';
-import '../../../src/graphs/directed-graphs/Graph.dart';
+import '../../../lib/graphs/directed-graphs/Graph.dart';
 import '../../testutils.dart';
 
 void main() {
